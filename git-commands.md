@@ -127,7 +127,7 @@ git push origin < source >: uploads the local commits to the main  or remote rep
                                      git push origin main
 
 
-
+git log --oneline : this command displays the commit history in a single line format ex: commitid : commit name
 
 
 
