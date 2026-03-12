@@ -130,7 +130,18 @@ git push origin < source >: uploads the local commits to the main  or remote rep
 git log --oneline : this command displays the commit history in a single line format ex: commitid : commit name
 
 
+=========================================================================================GIT DELETE COMMANDS======================================================================================================
 
 
+git branch -d < branchname > : this command safely deletes a branch , whos changes are merged with the main branch, hence the branch will be deleted without any loss of changes .
+    
+                               Example: incase there is need of deleting idle branches whos changes are already merged to main, use soft delete
+
+
+git branch -D < branchname > : this command forcefully deletes a branch , irrespective of the changes are merged with the main, this will wipe out all the changes along with the branch that are even pushed to                                 main .
+                              
+                               Example: incase there is need of deleting idle branches which has no changes or not used, use hard delete
+
+                                         
 
 
